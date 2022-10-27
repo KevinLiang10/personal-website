@@ -6,12 +6,12 @@ import { CssBaseline } from "@material-ui/core";
 import { logCredits } from "../utils/logCredits";
 import { Home } from "../pages/Home";
 import Main from "../components/layout/Main";
-// import { Entry } from "../pages/Entry";
-// import { Resume } from "../pages/Resume";
-
-const Entry = lazy(() => import("../pages/Entry"));
-const Resume = lazy(() => import("../pages/Resume"));
-const PageNotFound = lazy(() => import("../pages/PageNotFound"));
+import { Entry } from "../pages/Entry";
+import { Resume } from "../pages/Resume";
+import { PageNotFound } from "../pages/PageNotFound";
+// const Entry = lazy(() => import("../pages/Entry"));
+// const Resume = lazy(() => import("../pages/Resume"));
+// const PageNotFound = lazy(() => import("../pages/PageNotFound"));
 
 export const App = () => {
     logCredits();
@@ -19,7 +19,7 @@ export const App = () => {
         <ThemeProvider>
             <CssBaseline />
             <Router>
-            <Suspense fallback={<Main/>}>
+            {/* <Suspense fallback={<Main/>}> */}
                     <Switch>
                         <Route path="/" exact>
                                 <Entry/>
@@ -28,7 +28,7 @@ export const App = () => {
                         <Route path="/resume" component={Resume} />
                         <Route path="*" component={PageNotFound} />
                     </Switch>
-            </Suspense>
+            {/* </Suspense> */}
             </Router>
         </ThemeProvider> 
     );
