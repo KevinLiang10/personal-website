@@ -64,7 +64,7 @@ export const Resume = () => {
       <div
         ref={ref}
         className='container mx-auto content-center w-3/4'>
-      <PdfResume theme = {theme} width = {divWidth}/>
+      <PdfResume width = {divWidth}/>
       </div>
     </Main>
   );

@@ -1,6 +1,7 @@
 import { View } from '@react-pdf/renderer';
-import React, { useState } from 'react';
+import React, { useState, useContext} from 'react';
 import { Document, Page, pdfjs } from "react-pdf";
+// import { ThemeContext } from '../components/theme/ThemeProvider';
 // import res from  "./Resume.pdf"
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
   
@@ -14,6 +15,7 @@ export const PdfResume = (props) => {
     // setNumPages(numPages);
     // setPageNumber(1);
     // }
+    // const { theme, toggleTheme } = useContext(ThemeContext);
     
     const url = new URL("./Resume.pdf", import.meta.url).toString();
     return (
@@ -24,7 +26,7 @@ export const PdfResume = (props) => {
             // onLoadSuccess={onDocumentLoadSuccess}
             >
             <div className={
-                `${props.theme ==="light"? "bg-gray-100":"bg-zinc-900"} 
+                `${ "bg-gray-100"} 
                 bg-opacity-40`}>
 
             <Page 
