@@ -26,9 +26,7 @@ function Main(props){
             {/* {props.fullPage ? null : <SideBar />} */}
             </div>
         </HelmetProvider>
-        <div >
         <ThemeToggle/>
-        </div>
         </>
     );
 };
