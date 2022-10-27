@@ -3,6 +3,8 @@
     "primary": "#00bfbf",
     "secondary": "#db61a2",
     "black": "#111111",
-    "white": "#fafafa"
+    "white": "#fafafa",
+    "SL-200": "#f3f4f6",
+    "ZK-900": "#18181b"
   }
 }

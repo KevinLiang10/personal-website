@@ -1,6 +1,6 @@
 {
     "basics": {
-        "name": "Jo Lienhoop",
+        "name": "Kevin Liang",
         "label": "Computer Science student",
         "email": "hey@jolienhoop.com",
         "phone": "(XXX) XXX-XXXX",
@@ -10,14 +10,14 @@
         "description": "Hey, I'm Jo Lienhoop, a Computer Science student based in Bremen, Germany. I love all things technical. Talk soon!",
         "summary": "based in Bremen, Germany.",
         "keywords": "personal,website,portfolio,template,kit,jo,lienhoop,jolienhoop,computer,science,bremen,germany,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp",
-        "url": "https://jolienhoop.com",
+        "url": "https://liangmo.net.cn",
         "location": {
-            "address": "XX XXXXXstreet",
-            "postalCode": "XXXXX",
-            "city": "Bremen",
-            "country": "Germany",
-            "countryCode": "DEU",
-            "region": "Bremen"
+            "address": "522 Blue Beech Blvd",
+            "postalCode": "N2V 2T4",
+            "city": "Waterloo",
+            "country": "Canada",
+            "countryCode": "CAN",
+            "region": "Ontario"
         },
         "profiles": [
             {

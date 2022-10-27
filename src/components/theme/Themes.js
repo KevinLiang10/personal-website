@@ -5,6 +5,8 @@ export const primary = `${Settings.colors.primary}`;
 export const secondary = `${Settings.colors.secondary}`;
 export const black = `${Settings.colors.black}`;
 export const white = `${Settings.colors.white}`;
+export const LT_bar = `${Settings.colors['SL-200']}`
+export const DK_bar = `${Settings.colors['ZK-900']}`
 
 export const LightTheme = responsiveFontSizes(
   createMuiTheme({
@@ -14,7 +16,7 @@ export const LightTheme = responsiveFontSizes(
         main: primary,
       },
       secondary: {
-        main: secondary,
+        main: LT_bar,
       },
       background: {
         default: white,
@@ -106,7 +108,7 @@ export const DarkTheme = responsiveFontSizes(
         main: primary,
       },
       secondary: {
-        main: secondary,
+        main: DK_bar,
       },
       background: {
         default: black,
