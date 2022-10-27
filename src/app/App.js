@@ -8,7 +8,8 @@ import { Home } from "../pages/Home";
 import Main from "../components/layout/Main";
 import { Entry } from "../pages/Entry";
 import { Resume } from "../pages/Resume";
-import { PageNotFound } from "../pages/PageNotFound";
+import { PageNotFound } from "../pages/PageNotFound"; 
+import { Contact } from "../pages/Contact";
 // const Entry = lazy(() => import("../pages/Entry"));
 // const Resume = lazy(() => import("../pages/Resume"));
 // const PageNotFound = lazy(() => import("../pages/PageNotFound"));
@@ -24,6 +25,7 @@ export const App = () => {
                         <Route path="/" exact>
                                 <Entry/>
                         </Route>
+                        <Route path="/contact" component={Contact}/>
                         <Route path="/home" component={Home} />
                         <Route path="/resume" component={Resume} />
                         <Route path="*" component={PageNotFound} />

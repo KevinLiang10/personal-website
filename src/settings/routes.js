@@ -16,10 +16,10 @@ const routes = [
     //   label: 'Education',
     //   path: '/education',
     // },
-    // {
-    //   label: 'Contact',
-    //   path: '/contact',
-    // },
+    {
+      label: 'Contact',
+      path: '/contact',
+    },
   ];
   
   export default routes;
